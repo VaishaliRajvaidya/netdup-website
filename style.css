@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+
+html,body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    }
+
+header {
+    
+    color: #fff;
+    text-align: center;
+}
+header .heading{
+    background-color: #070707;
+    color: #fff;
+ align-items: center;
+ text-align:left;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: 120px;
+    }
+.heading>h1{
+    margin-left : 200px; 
+    font-size: 100px;
+     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+     font-weight: 900;
+     margin-top: 20px;
+     padding: 5px;
+     letter-spacing: 5px;
+
+}.heading>label{
+    margin-left: 180px;
+    
+
+}
+.heading> #submit{
+    margin-left: 200px;
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    justify-items: center;
+}
+header nav{
+    display: flex;
+    gap :20px;
+    align-items: center;
+    justify-content: center;
+    background-color:#1a1818 ;
+    height: 100px;
+    text-align: center;
+     margin-left: 0; 
+     
+}
+header nav ul {
+    list-style: none;
+    margin: 200px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 80px;
+
+
+}
+
+header nav ul li {
+    margin-right: 30px;
+    margin-left: 10px;
+    transition: all 0.15 ease;
+}
+nav ul li:hover{background-color: #fff;}
+
+.Main{
+ 
+height: 600px;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.Main > .backimage{
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+    
+}
+
+ .backimage > img{
+ width: 1350px; ;
+height: 600px;
+    background-size: cover;
+    filter: blur(2.8px);
+    
+    
+
+}
+    
+.mtext{
+    position: absolute;
+    top: 480px;
+    left: 650px;
+    transform: translate(-50%,-50%);
+    text-wrap: nowrap;
+}
+
+.mtext h1 {
+    font-size: 60px;
+    margin-left: 60px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:900 ;
+}
+
+.mtext p {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin-left: 300px;
+
+}
+.continue {
+    padding:5px;
+    background-color:#8fc297 ;
+}
+
+.con-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.con-concard {
+    margin: 20px;
+    width: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.con-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+
+
+.content {
+
+    padding:5px;
+    background-color:#545996 ;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    margin: 20px;
+    width: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.Language {
+    padding:5px;
+    background-color:#8fc297 ;
+}
+
+.lan-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.lan-card {
+    margin: 20px;
+    width: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.lan-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.lan-card h3 {
+    font-size: 18px;position: absolute;
+    top: 140px;
+    left:30px;
+    transform: translate(-50%,-50%);
+    color:white;
+}
+footer .mail {
+    background-color: #a85959;
+    color:rgb(231, 224, 224);
+    text-align: center;
+    height: 120px;
+    width: 1350px;
+    position: absolute;
+    left: 675px;
+    top: 45px;
+    transform: translate(-50%,-50%);
+    justify-content: center;
+    align-items: center;
+    
+    
+}.mail input{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+}
+.mail > .submit{
+    width: 80px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+
+footer {
+
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    height: 200px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+footer #foot{
+text-align: center;
+align-items: end;
+justify-content: center;
+margin-top:120px ;
+color: white;
+gap: 100px;
+}
